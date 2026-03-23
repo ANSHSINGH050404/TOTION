@@ -4,7 +4,7 @@
   "description": "A beautiful and minimal terminal note-taking TUI.",
   "license": "MIT",
   "bin": {
-    "totion": "./bin/totion.cjs"
+    "totion": "bin/totion.cjs"
   },
   "files": [
     "bin",
@@ -24,12 +24,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ANSHSINGH020404/TOTION.git"
+    "url": "git+https://github.com/ANSHSINGH050404/TOTION.git"
   },
   "bugs": {
-    "url": "https://github.com/ANSHSINGH020404/TOTION/issues"
+    "url": "https://github.com/ANSHSINGH050404/TOTION/issues"
   },
-  "homepage": "https://github.com/ANSHSINGH020404/TOTION#readme",
+  "homepage": "https://github.com/ANSHSINGH050404/TOTION#readme",
   "engines": {
     "node": ">=16"
   }
