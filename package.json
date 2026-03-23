@@ -13,7 +13,11 @@
     "README.md"
   ],
   "scripts": {
-    "test": "node -e \"console.log('No tests defined')\""
+    "build": "mkdir -p build && npm run build:windows && npm run build:darwin-amd64 && npm run build:darwin-arm64 && npm run build:linux",
+    "build:windows": "set GOOS=windows&& set GOARCH=amd64&& go build -o build/totion-windows-amd64.exe .",
+    "build:darwin-amd64": "set GOOS=darwin&& set GOARCH=amd64&& go build -o build/totion-darwin-amd64 .",
+    "build:darwin-arm64": "set GOOS=darwin&& set GOARCH=arm64&& go build -o build/totion-darwin-arm64 .",
+    "build:linux": "set GOOS=linux&& set GOARCH=amd64&& go build -o build/totion-linux-amd64 ."
   },
   "keywords": [
     "cli",
